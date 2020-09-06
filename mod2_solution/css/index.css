@@ -37,9 +37,9 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #ffffff;
+	background-color: #b9a6a6;
 	width: 100%;
-	height: 200px;
+	min-height: 150px;
 	font-family: Helvetica;
 	color: black;
 	position: relative;
@@ -59,12 +59,12 @@ section {
 	padding: 5px;
 }
 
-#chicken {
+#chicken  {
 	text-align: right;
   background-color: #e2b1db;
   font-size: 150%;
   font-family: 'Anton', sans-serif;
-
+  padding: 10px;
 }
 
 #beef {
@@ -72,6 +72,8 @@ section {
   background-color: #dd0021f5;
   font-size: 150%;
   font-family: 'Anton', sans-serif;
+  padding: 10px;
+
 }
 
 #sushi {
@@ -79,12 +81,16 @@ section {
   background-color: rgb(233, 229, 4);
   font-size: 150%;
   font-family: 'Anton', sans-serif;
+  padding: 10px;
+  
+}
+body span{
+  float: right;
 }
 
 .row {
 	width: 100%;
 }
-
 /* Desktop view */
 
 @media (min-width: 992px) {
